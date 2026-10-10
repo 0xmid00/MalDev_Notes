@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "ff3711295125f2f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "18596302f38a32de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7318bae5ac2aae0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00. Utilities/06. PE/01. PE File Parser.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01. PE File Parser"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eb888bf91f248bd5",
+    "type": "split",
+    "children": [
+      {
+        "id": "39484b21c0da1259",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e5ec8a6d018080d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4edac53784846b02",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "GetRemoteProcessHandle",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6079182271330d01",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 478.5
+  },
+  "right": {
+    "id": "1afa82d48e62fdab",
+    "type": "split",
+    "children": [
+      {
+        "id": "48ebd24da02fb9da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8d7a409d38940d4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "05. Payload Writing/00. Local/02.Local Function Stomping Injection.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "3c49dd0843f6741f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "05. Payload Writing/00. Local/02.Local Function Stomping Injection.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "65edea1ad1973991",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9140bf5d9bacd6b2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c00c41ebca93f406",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "05. Payload Writing/00. Local/02.Local Function Stomping Injection.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2e5ec8a6d018080d",
+  "lastOpenFiles": [
+    "_extras/02. Untitled.md",
+    "00. Utilities/06. PE/01. PE File Parser.md",
+    "00. Utilities/06. PE",
+    "00. Utilities/06. PE.md",
+    "00. Utilities/01. File IO/01. Read File from Disk.md",
+    "00. Utilities/01. File IO/02. Write File to Disk.md",
+    "07. Process Spoofing/01. PPID Spoofing.md",
+    "00. Utilities/02. Memory/01. Local Memory Management.md",
+    "07. Process Spoofing/03. Process Argument Spoofing (2).md",
+    "06. Payload Injection/02. Function Stomping Injection/02.Remote Function Stomping Injection.md",
+    "06. Payload Injection/02. Function Stomping Injection/01.Local Function Stomping Injection.md",
+    "07. Process Spoofing/02. Process Argument Spoofing (1).md",
+    "05. Payload Execution/05. Payload Execution Control/03. Payload Execution Control via Event.md",
+    "05. Payload Execution/05. Payload Execution Control/02. Payload Execution Control via Mutex.md",
+    "00. Utilities/03. Process/4. Write To Remote Process Memory.md",
+    "00. Utilities/03. Process/03. Read From Remote Process Memory.md",
+    "07. Process Spoofing",
+    "_extras/03. Untitled 1.md",
+    "00. Utilities/04. DLL/01. Dynamic DLL Loading.md",
+    "_Note Template.md",
+    "_Parameter Source Map.md",
+    "04. Enumeration/00. Process/04. Get Remote Process Handle via EnumProcesses.md",
+    "00. Utilities/03. Process/01. Create a Suspended Process.md",
+    "04. Enumeration/00. Process/02. Get Remote Process Handle via CreateToolhelp32Snapshot.md",
+    "00. Utilities/03. Process/02. Create a Suspended Process via DEBUG_PROCESS.md",
+    "00. Utilities/03. Process/03. Create a Suspended Process via DEBUG_PROCESS 1.md",
+    "04. Enumeration/00. Process/03. Process Enumeration via EnumProcesses.md",
+    "04. Enumeration/00. Process/01. Process Enumeration via CreateToolhelp32Snapshot.md",
+    "05. Payload Execution/05. Payload Execution Control",
+    "06. Payload Injection",
+    "06. Payload Injection/02. Function Stomping Injection",
+    "06. Payload Injection/01. Mapping Injection"
+  ]
+}
