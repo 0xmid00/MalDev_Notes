@@ -1,0 +1,104 @@
+| Name                                                        | OS      | Privileges    | Difficulty |
+|-------------------------------------------------------------|---------|---------------|------------|
+| DLL Injection                                               | Windows | User          | Easy       |
+| Classic Shellcode Execution                                 | Windows | User          | Easy       |
+| Classic Process Injection                                   | Windows | User          | Easy       |
+| Asynchronous Procedure Call Injection via NtTestAlert       | Windows | User          | Medium     |
+| Remote Function Patcher                                     | Windows | User          | Medium     |
+| ETW Patching                                                | Windows | User          | Easy       |
+| AMSI Patching                                               | Windows | User          | Medium     |
+| Shellcode Execution via EnumWindows                         | Windows | User          | Easy       |
+| Shellcode Execution via EnumChildWindows                    | Windows | User          | Easy       |
+| Shellcode Execution via Timer                               | Windows | User          | Easy       |
+| Shellcode Execution using XOR                               | Windows | User          | Medium     |
+| Windows Defender Killer                                     | Windows | Administrator | Easy       |
+| Process Hypnosis Injection                                  | Windows | User          | Medium     |
+| RDP Credential Stealer                                      | Windows | User          | Medium     |
+| Evade Sysmon Rules                                          | Windows | Administrator | Medium     |
+| Hiding File with ADS and XOR                                | Windows | User          | Medium     |
+| Ghostly Hollowing                                           | Windows | User          | Medium     |
+| AES Shellcode Execution                                     | Windows | User          | Medium     |
+| EarlyBird APC Code Injection                                | Windows | User          | Medium     |
+| FindWindow Code Injection                                   | Windows | User          | Medium     |
+| Multi-Process DLL Injection                                 | Windows | User          | Medium     |
+| Process Hollowing Injection                                 | Windows | User          | Hard       |
+| Free Thread Hijacking                                       | Windows | User          | Hard       |
+| Malware Payload Control via IPC (Mutex)                     | Windows | User          | Easy       |
+| IPC via Named Pipes                                         | Windows | User          | Easy       |
+| ETW Interceptor Hook                                        | Windows | User          | Hard       |
+| ETW Ghost Logger                                            | Windows | User          | Hard       |
+| HTML Smuggling                                              | Windows | None          | Easy       |
+| Parent PID Spoofing via Extended STARTUPINFOEX              | Windows | User          | Easy       |
+| Keylogger                                                   | Windows | User          | Easy       |
+| Early Cascade Injection via Shim-Engine Hooking             | Windows | User          | Hard       |
+| AV/EDR Process Whitelist Enumeration                        | Windows | User          | Medium     |
+| PPID Spoofing via WMI                                       | Windows | User          | Easy       |
+| PPID Spoofing via Scheduled Task                            | Windows | Administrator | Medium     |
+| RC4 Shellcode Encryption                                    | Windows | User          | Easy       |
+| Sysmon Driver-Name Enumeration                              | Windows | Administrator | Medium     |
+| Store Processes in HashMap Struct                           | Windows | User          | Medium     |
+| List Process Modules with VirtualQueryEx                    | Windows | User          | Medium     |
+| RC5 Shellcode Encryption                                    | Windows | User          | Easy       |
+| Hide Payload in Alternate Data Streams                      | Windows | User          | Easy       |
+| AMSI ScanBuffer                                             | Windows | User          | Easy       |
+| AMSI ScanString                                             | Windows | User          | Easy       |
+| AMSI OpenSession                                            | Windows | User          | Medium     |
+| RC6 Shellcode Encryption                                    | Windows | User          | Easy       |
+| Hiding Keys/Payload in SIMD – SSE                           | Windows | User          | Easy       |
+| Hiding Shellcode in PNG                                     | Windows | User          | Easy       |
+| Import Address Table Hooking                                | Windows | User          | Easy       |
+| Keylogger with Anti-Detection                               | Windows | Administrator | Medium     |
+| Windows File Hiding                                         | Windows | User          | Easy       |
+| Enumerate and Subscribe to ETW Providers                    | Windows | User          | Medium     |
+| Reverse Shell                                               | Windows | User          | Medium     |
+| Compile-Time String Encryption                              | Windows | User          | Easy       |
+| Microsoft Edge Cookie Stealer                               | Windows | User          | Medium     |
+| Dump Windows Credential Manager                             | Windows | User          | Easy       |
+| Blind Shell                                                 | Windows | User          | Medium     |
+| Exfiltrate information through Discord                      | Windows | User          | Easy       |
+| Exfiltrate information through Telegram                     | Windows | User          | Easy       |
+| SSDT Kernel Hooking                                         | Windows | Kernel        | Hard       |
+| In-Memory LSASS Dumping                                     | Windows | Admin         | Medium     |
+| Active Directory Discover                                   | Windows | User          | Medium     |
+| APC Process Injection using NtQueueApcThreadEx2             | Windows | User          | Medium     |
+| IPC via Thread Description                                  | Windows | User          | Easy       |
+| UAC Bypass via CMSTP                                        | Windows | User          | Medium     |
+| Custom WriteProcessMemory                                   | Windows | User          | Medium     |
+| Custom LoadLibrary                                          | Windows | User          | Easy       |
+| IPC via RPC                                                 | Windows | User          | Easy       |
+| List PPL Levels by Process                                  | Windows | Kernel        | Medium     |
+| Ptrace Process Injection                                    | Android | User          | Hard       |
+| Disable PPL Process Protection                              | Windows | Kernel        | Medium     |
+| Arbitrary Process Termination via BYOVD                     | Windows | Admin         | Easy       |
+| Reflective DLL Injection                                    | Windows | User          | Medium     |
+| Layered Compile-Time String Encryption                      | Windows | User          | Hard       |
+| Direct Shellcode Execution                                  | Windows | User          | Easy       |
+| Thread Hijacking                                            | Windows | User          | Easy       |
+| Shared Memory Injection                                     | Windows | User          | Easy       |
+| HTTPS Downloader Dropper (with Remote Thread DLL Injection) | Windows | User          | Easy       |
+| Cross-architecture Shellcode Execution                      | Windows | User          | Easy       |
+| Install EXE as a Windows Service                            | Windows | Admin         | Easy       |
+| Find RWX Memory Regions                                     | Windows | User          | Easy       |
+| BYOVD PPL Bypass via Kernel R/W                             | Windows | Admin         | Hard       |
+| Finding ROP Gadgets                                         | Windows | User          | Medium     |
+| Handle Elevate via BYOVD                                    | Windows | Admin         | Hard       |
+| Process Termination Writing PEB                             | Windows | User          | Easy       |
+| Terminate Process Corrupting PEB using BYOVD                | Windows | Admin         | Hard       |
+| Word Padding – Entropy Reduction                            | Windows | User          | Easy       |
+| Registry Hive Snapshot                                      | Windows | Admin         | Easy       |
+| Hide Remote Module PEB                                      | Windows | User          | Medium     |
+| Kernel Callback Table Injection                             | Windows | User          | Medium     |
+| PID Mutation                                                | Windows | Admin         | Medium     |
+| Handle Redirect                                             | Windows | Admin         | Hard       |
+| Anti VM via MAC                                             | Windows | User          | Easy       |
+| AMSI Write Raid                                             | Windows | Admin         | Medium     |
+| Win32k Callback Detouring Injection                         | Windows | Admin         | Medium     |
+| API Hashing                                                 | Windows | User          | Medium     |
+| Fairy Law                                                   | Windows | Admin         | Easy       |
+| Module Stomping                                             | Windows | User          | Medium     |
+| Module Overloading                                          | Windows | User          | Medium     |
+| Guard Page Neutralization                                   | Windows | User          | Easy       |
+| VSS Snapshot                                                | Windows | Admin         | Medium     |
+| Adding IAT Fake Imports                                     | Windows | User          | Easy       |
+| Malware Resurrector via Credential Provider                 | Windows | Admin         | Medium     |
+

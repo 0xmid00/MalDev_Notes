@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00. Utilities/06. PE/01. PE File Parser.md",
+                "file": "09.  IAT Hiding & Obfuscation/04. API Hashing - Custom GetModuleHandle & GetProcAddress.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01. PE File Parser"
+              "title": "04. API Hashing - Custom GetModuleHandle & GetProcAddress"
+            }
+          },
+          {
+            "id": "d80911ad27f096c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "09.  IAT Hiding & Obfuscation/04. API Hashing - Custom GetModuleHandle & GetProcAddress.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04. API Hashing - Custom GetModuleHandle & GetProcAddress"
             }
           }
         ]
@@ -55,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "GetRemoteProcessHandle",
+                "query": "PEB",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -188,36 +202,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "2e5ec8a6d018080d",
+  "active": "f7318bae5ac2aae0",
   "lastOpenFiles": [
+    "05. Payload Execution/01. Process Injection/03. Remote Processs Injection via CreateRemoteThread.md",
+    "09.  IAT Hiding & Obfuscation/04. API Hashing - Custom GetModuleHandle & GetProcAddress.md",
+    "09.  IAT Hiding & Obfuscation/03. Custom GetModuleHandle via PEB Walk.md",
     "_extras/02. Untitled.md",
-    "00. Utilities/06. PE/01. PE File Parser.md",
-    "00. Utilities/06. PE",
-    "00. Utilities/06. PE.md",
-    "00. Utilities/01. File IO/01. Read File from Disk.md",
-    "00. Utilities/01. File IO/02. Write File to Disk.md",
-    "07. Process Spoofing/01. PPID Spoofing.md",
-    "00. Utilities/02. Memory/01. Local Memory Management.md",
-    "07. Process Spoofing/03. Process Argument Spoofing (2).md",
-    "06. Payload Injection/02. Function Stomping Injection/02.Remote Function Stomping Injection.md",
-    "06. Payload Injection/02. Function Stomping Injection/01.Local Function Stomping Injection.md",
-    "07. Process Spoofing/02. Process Argument Spoofing (1).md",
-    "05. Payload Execution/05. Payload Execution Control/03. Payload Execution Control via Event.md",
-    "05. Payload Execution/05. Payload Execution Control/02. Payload Execution Control via Mutex.md",
-    "00. Utilities/03. Process/4. Write To Remote Process Memory.md",
-    "00. Utilities/03. Process/03. Read From Remote Process Memory.md",
-    "07. Process Spoofing",
+    "09.  IAT Hiding & Obfuscation/02. Custom GetProcAddress via PE Export Table Walk.md",
+    "05. Payload Execution/01. Process Injection/01. Local Payload Execution via CreateThread.md",
+    "08. String Hashing/02. String Hashing via JenkinsOneAtATime32Bit.md",
+    "00. Utilities/05. Misc/01. Sign a Malware with a Self-Signed Certificate.md",
     "_extras/03. Untitled 1.md",
-    "00. Utilities/04. DLL/01. Dynamic DLL Loading.md",
+    "_extras/01. Temp.md",
+    "09.  IAT Hiding & Obfuscation/01. IAT Hiding & Obfuscation Method 1  (Dynamic DLL Loading).md",
+    "_Ai_Bypass_Prompt.md",
+    "07. Process Spoofing/02. Process Argument Spoofing (1).md",
+    "07. Process Spoofing/01. PPID Spoofing.md",
     "_Note Template.md",
-    "_Parameter Source Map.md",
-    "04. Enumeration/00. Process/04. Get Remote Process Handle via EnumProcesses.md",
-    "00. Utilities/03. Process/01. Create a Suspended Process.md",
-    "04. Enumeration/00. Process/02. Get Remote Process Handle via CreateToolhelp32Snapshot.md",
-    "00. Utilities/03. Process/02. Create a Suspended Process via DEBUG_PROCESS.md",
-    "00. Utilities/03. Process/03. Create a Suspended Process via DEBUG_PROCESS 1.md",
-    "04. Enumeration/00. Process/03. Process Enumeration via EnumProcesses.md",
-    "04. Enumeration/00. Process/01. Process Enumeration via CreateToolhelp32Snapshot.md",
+    "07. Process Spoofing/03. Process Argument Spoofing (2).md",
+    "05. Payload Execution/05. Payload Execution Control/01. Payload Execution Control via Semaphore.md",
+    "05. Payload Execution/03. APC Injection/01. Local APC Injection via Alertable Thread.md",
+    "Untitled",
+    "00. Utilities/06. PE/01. PE File Parser.md",
+    "00. Utilities/04. DLL/01. Dynamic DLL Loading.md",
+    "06. Payload Injection/02. Function Stomping Injection/02.Remote Function Stomping Injection.md",
+    "09.  IAT Hiding & Obfuscation",
+    "08. String Hashing/03. String Hashing via LoseLose.md",
+    "00. Utilities/_techniques_blackmagick.io.txt",
+    "08. String Hashing/04. String Hashing via Rotr32.md",
+    "08. String Hashing/01. String Hashing via Djb2.md",
+    "08. String Hashing",
+    "01. Encryption/15. AES Encryption via Tiny-AES.md",
+    "01. Encryption/16. AES Decryption via Tiny-AES.md",
+    "00. Utilities/06. PE",
+    "07. Process Spoofing",
     "05. Payload Execution/05. Payload Execution Control",
     "06. Payload Injection",
     "06. Payload Injection/02. Function Stomping Injection",
