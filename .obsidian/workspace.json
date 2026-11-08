@@ -8,91 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f7318bae5ac2aae0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05. Payload Execution/03. APC Injection/02. Local APC Injection via Suspended Thread.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "02. Local APC Injection via Suspended Thread"
-            }
-          },
-          {
-            "id": "108d422bde477d89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10. API Hooking/02. API Hooking Trampoline via MinHook Library.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "02. API Hooking Trampoline via MinHook Library"
-            }
-          },
-          {
-            "id": "a561377ca749719e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11. SYS Calls/01. Syscalls - Userland Hooking (MinHook).md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01. Syscalls - Userland Hooking (MinHook)"
-            }
-          },
-          {
-            "id": "88a52a5bb377e53c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11. SYS Calls/01. Syscalls - Userland Hooking (MinHook).md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01. Syscalls - Userland Hooking (MinHook)"
-            }
-          },
-          {
-            "id": "7ea98c42320927b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11. SYS Calls/03. Direct Syscalls via Custom ASM Stub (manually SNN setting).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "03. Direct Syscalls via Custom ASM Stub (manually SNN setting)"
-            }
-          },
-          {
             "id": "e99eca8e84c0cc20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11. SYS Calls/05. Direct Syscalls via Custom Sort-By-Address (x86 & x64).md",
+                "file": "11. SYS Calls/06. Direct Syscall Detection via  Hooking Nirvana..md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05. Direct Syscalls via Custom Sort-By-Address (x86 & x64)"
+              "title": "06. Direct Syscall Detection via  Hooking Nirvana."
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "NtProtectVirtualMemory",
+                "query": "AllocConsole",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -261,9 +190,26 @@
   },
   "active": "e99eca8e84c0cc20",
   "lastOpenFiles": [
-    "11. SYS Calls/04. Direct Syscalls via SysWhispers2.md",
-    "11. SYS Calls/05. Direct Syscalls via Custom Sort-By-Address (x86 & x64).md",
+    "11. SYS Calls/05. Direct Syscalls via Custom Sort By Address (x86 & x64).md",
+    "11. SYS Calls/06. Direct Syscall Detection via  Hooking Nirvana..md",
+    "11. SYS Calls/01. Syscalls - Userland Hooking (MinHook).md",
     "11. SYS Calls/03. Direct Syscalls via Custom ASM Stub (manually SNN setting).md",
+    "10. API Hooking/02. API Hooking Trampoline via MinHook Library.md",
+    "05. Payload Execution/03. APC Injection/02. Local APC Injection via Suspended Thread.md",
+    "11. SYS Calls/04. Direct Syscalls via SysWhispers2.md",
+    "04. Enumeration/00. Process/04. Get Remote Process Handle via EnumProcesses.md",
+    "04. Enumeration/00. Process/03. Process Enumeration via EnumProcesses.md",
+    "0.files/threatcheck/ThreatCheck/Scanners/Scanner.cs",
+    "0.files/threatcheck/ThreatCheck/Scanners/DefenderScanner.cs",
+    "0.files/threatcheck/ThreatCheck/Scanners/AmsiScanner.cs",
+    "0.files/threatcheck/ThreatCheck/Properties/AssemblyInfo.cs",
+    "0.files/threatcheck/ThreatCheck/ThreatCheck.csproj",
+    "0.files/threatcheck/ThreatCheck/Scanners",
+    "0.files/threatcheck/ThreatCheck/Properties",
+    "0.files/threatcheck/ThreatCheck/Program.cs",
+    "0.files/threatcheck/ThreatCheck/NativeMethods.cs",
+    "0.files/threatcheck/ThreatCheck/Helpers.cs",
+    "0.files/threatcheck/README.md",
     "_extras/03. Untitled 1.md",
     "00. Utilities/06. PE/01. PE File Parser.md",
     "11. SYS Calls/02. Direct Syscalls via SysWhispers.md",
@@ -273,30 +219,13 @@
     "09.  IAT Hiding & Obfuscation/03. Custom GetModuleHandle via PEB Walk.md",
     "09.  IAT Hiding & Obfuscation/05. Compile Time API Hashing - GetProcAddress.md",
     "10. API Hooking/03. API Hooking via Custom Code.md",
-    "11. SYS Calls/01. Syscalls - Userland Hooking (MinHook).md",
     "_extras/02. Untitled.md",
     "06. Payload Injection/01. Mapping Injection/02. Remote Mapping Injection.md",
     "06. Payload Injection/01. Mapping Injection/01. Local Mapping Injection.md",
     "07. Process Spoofing/03. Process Argument Spoofing (2).md",
     "07. Process Spoofing/02. Process Argument Spoofing (1).md",
-    "0.files/test.exe",
     "_Note Template.md",
     "_Parameter Source Map.md",
-    "Untitled.md",
-    "11. SYS Calls",
-    "_extras/01. Temp.md",
-    "10. API Hooking/02. API Hooking Trampoline via MinHook Library.md",
-    "05. Payload Execution/03. APC Injection/02. Local APC Injection via Suspended Thread.md",
-    "05. Payload Execution/03. APC Injection/01. Local APC Injection via Alertable Thread.md",
-    "10. API Hooking/01. API Hooking Trampoline via Detours Library.md",
-    "0.files/API Hooking MinHook",
-    "0.files/10. API Hooking/minhook/MinHook.h",
-    "0.files/10. API Hooking/minhook/MinHook.h.1",
-    "0.files/10. API Hooking/minhook/minhook.x64.lib",
-    "0.files/10. API Hooking/minhook/minhook.x32.lib",
-    "0.files/10. API Hooking/minihook/minhook.x64.lib",
-    "0.files/10. API Hooking/minihook/minhook.x32.lib",
-    "0.files/10. API Hooking/minihook",
     "0.files/10. API Hooking/vcpkg/scripts/test_ports/vcpkg-ci-aui/project/assets/img/icon.svg"
   ]
 }
